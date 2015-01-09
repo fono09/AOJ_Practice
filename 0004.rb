@@ -2,7 +2,7 @@ require 'matrix'
 
 lines = STDIN.readlines
 
-lines.each do |line|
+STDIN.each_line do |line|
 
 	nums = line.chomp.split(" ").map do |str|
 		str.to_i
